@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.searchBar {
+  @apply ml-2 h-10 w-[20em] bg-transparent border-none outline-none;
+}
+input {
+  @apply border-b-2 outline-none  h-[2rem] lg:w-[500px];
+}
+
+form div {
+  @apply flex  flex-col;
+}
