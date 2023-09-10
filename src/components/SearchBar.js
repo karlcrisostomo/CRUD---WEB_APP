@@ -15,7 +15,7 @@ const SearchBar = () => {
 
   return (
     <div>
-      <div className="flex items-center bg-gray-100  border-[1px]  border-gray-300 rounded-xl p-2 md:w-fit h-1/2 mx-auto">
+      <div className="flex items-center bg-gray-100  border-[1px]border-gray-300 rounded-xl p-2 sm:w-fit h-1/2 mx-auto">
         <AiOutlineSearch className="cursor-pointer" size={32} />
         <input
           className="searchBar"
